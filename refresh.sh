@@ -6,12 +6,9 @@
 
 # Multi line string of Unsplash usernames.
 # The Unsplash Demo API has a Rate Limit of 50 requests per hour. Therefore, you can put up to 50 usernames in here.
-# Feel free to add your username!
-UNSPLASH_USERNAMES="
-  internetztube
-"
+# UNSPLASH_USERNAMES="internetztube"
 
-FALLBACK_TARGET="https://github.com/internetztube/unsplash-random"
+# FALLBACK_TARGET="https://github.com/internetztube/unsplash-random"
 FILENAME="_redirects"
 
 rm $FILENAME

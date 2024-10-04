@@ -1,4 +1,4 @@
-name: Format
+name: Refresh
 
 on:
   schedule:
@@ -6,9 +6,11 @@ on:
 
 env:
   UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+  UNSPLASH_USERNAMES: ${{ vars.UNSPLASH_USERNAMES }}
+  FALLBACK_TARGET: ${{ vars.FALLBACK_TARGET }}
 
 jobs:
-  update:
+  refresh:
     runs-on: ubuntu-latest
 
     permissions:
