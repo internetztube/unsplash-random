@@ -30,6 +30,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_author: Author <actions@github.com>
+          commit_message: "Update _redirects"
           commit_options: '--amend --no-edit'
           push_options: '--force'
           skip_fetch: true
