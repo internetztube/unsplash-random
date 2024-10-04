@@ -9,8 +9,8 @@ With the discontinuation of [source.unsplash.com](https://source.unsplash.com/) 
 Every hour, a GitHub Action fetches a random photo from the Unsplash API and generates a Cloudflare Pages redirect file, which is automatically deployed. This ensures that your displayed images are refreshed regularly without manual intervention.
 
 ## Example
-https://unsplash.internetztube.net/internetztube/full
 ![Random Unsplash Photo from @internetztube](https://unsplash.internetztube.net/internetztube/full)
+https://unsplash.internetztube.net/internetztube/full
 
 ## Prerequisites
 
