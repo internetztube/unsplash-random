@@ -1,0 +1,33 @@
+name: Format
+
+on:
+  schedule:
+    - cron:  '*/5 * * * *'
+
+env:
+  UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 2
+
+      - name: 'Update _redirects'
+        run: |
+          chmod +x ./refresher.sh
+          ./refresher.sh
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_author: Author <actions@github.com>
+          commit_options: '--amend --no-edit'
+          push_options: '--force'
+          skip_fetch: true
