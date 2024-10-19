@@ -1,0 +1,7 @@
+/internetztube/raw https://images.unsplash.com/photo-1535613089016-6a947a388e33?ixid=M3w2NjEyNjh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMjg3NDR8&ixlib=rb-4.0.3 302
+/internetztube/full https://images.unsplash.com/photo-1535613089016-6a947a388e33?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2NjEyNjh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMjg3NDR8&ixlib=rb-4.0.3&q=85 302
+/internetztube/regular https://images.unsplash.com/photo-1535613089016-6a947a388e33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjEyNjh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMjg3NDR8&ixlib=rb-4.0.3&q=80&w=1080 302
+/internetztube/small https://images.unsplash.com/photo-1535613089016-6a947a388e33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjEyNjh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMjg3NDR8&ixlib=rb-4.0.3&q=80&w=400 302
+/internetztube/thumb https://images.unsplash.com/photo-1535613089016-6a947a388e33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NjEyNjh8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMjg3NDR8&ixlib=rb-4.0.3&q=80&w=200 302
+/internetztube/small_s3 https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1535613089016-6a947a388e33 302
+/* https://github.com/internetztube/unsplash-random 301
